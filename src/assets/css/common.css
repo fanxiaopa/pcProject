@@ -1,0 +1,44 @@
+*{margin: 0;padding: 0;}
+a{list-style: none;text-decoration: none;}
+.topcontainer{ width:100%; height:47px; background:#f2f2f2; border-bottom:#e3e3e3 1px solid;}
+.top{ width:1150px; margin:0 auto; position:relative;}
+.menu{position: absolute;left: 50px;}
+.menu ul{ list-style:none;}
+.menu ul li{ float:left; margin:0; padding:0; height:48px; line-height:48px; text-align:center;}
+.menu ul li a{ display:block; width:110px; color:#353535; font-size:14px;}
+.menu ul li a:hover{color:#ff4e7e;_color:#353535;}
+.menu ul li a.active{ background:#ff4e7e; color:#fff;}
+.follow{ position:absolute; right:0; top:12px;}
+.login{ position:absolute; right:110px;height:48px; line-height:48px;}
+.login a{color:#353535;font-size: 15px;margin-right:10px}
+.login a:hover{color:#ff4e7e;}
+.tophome{position:absolute; left:0;width:50px; height:48px; overflow:hidden;}
+.tophome a{ padding:0 0 0 80px; display:block; height:47px; width:50px; background-image:url(../images/home.jpg); background-repeat:no-repeat; background-position:0 0;}
+.tophome a.active{ background-position:0 -48px;height:48px;}
+.tophome a:hover{ background-position:0 -96px;height:47px;}
+.tophome2{ left:130px;}
+.menu2{ left:180px;}
+.toplogo{ position:absolute; left:0; height:47px; overflow:hidden;}
+/*************************设置被激活导航栏的样式********************/
+.actives{background: #ff4e7e;color: #fff }
+.actives .routerLink{color: #fff}
+.actives .routerLink:hover{color: #fff;}
+/*********************************End*******************************/
+
+/* *********************婚礼风尚 ，答谢晚宴10th ********************/
+.headcontainer{ width:100%;height:144px; border-bottom:#f2f2f2 8px solid;}
+.head{width:1150px; margin:0 auto; position:relative;}
+.logo{ position:absolute; top:32px; left:0;}
+.headbanner{ position:absolute; right:0; top:16px;}
+.headbanner img{width:920px;height:112px;}
+.swiper-container1>.swiperPagination{display: flex;justify-content: space-between;border-bottom: 1px solid #e5e5e5;padding-bottom: 10px;}
+
+/**********************************过渡效果的样式*************************************************/
+.slide-fade-enter-active {
+    transition: all 1s ease;
+  }
+  .slide-fade-enter,.slide-fade-leave-to{
+    opacity: 0;
+  }
+  .slide-fade-enter{transform: translateY(800px);}
+  /*************************************End******************************************************/

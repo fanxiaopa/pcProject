@@ -1,0 +1,41 @@
+/* .video{
+    width: 1150px;
+    height: 647px;
+} */
+.video-js{
+    display: flex;
+}
+.video-js .vjs-big-play-button{ /* 中间大的播放按钮 */
+    font-size: 3rem;
+    line-height:5.8rem;
+    height: 6rem;
+    width: 6rem;
+    -webkit-border-radius: 2.5rem;
+    -moz-border-radius: 2.5rem;
+    border-radius: 6rem;
+    background-color: rgba(115,133,159,.5);
+    border-width: 0.25rem; 
+    /* 让播放按钮水平居中 */
+    padding: 0;
+    position: absolute;
+    left: 0;right: 0;top: 0;bottom: 0;
+    margin:auto;
+  }
+  /* 视频暂停时显示播放按钮 */
+  .video-js.vjs-paused .vjs-big-play-button{ 
+    display: block;
+  }
+/*鼠标点进度条时的颜色*/
+  .video-js .vjs-progress-control .vjs-mouse-display{
+    background-color: #e70d0d;
+  }
+  /*移入进度条上方时的显示区域*/
+  .vjs-mouse-display .vjs-time-tooltip{
+    padding-bottom: 6px;
+    background-color: black;
+  }
+  /* 进度条背景色 */
+.video-js .vjs-play-progress{
+    color: #ff4d7d ;
+    background-color: #ff4d7d;
+}

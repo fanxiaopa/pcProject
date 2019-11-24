@@ -1,0 +1,15 @@
+.el-message-box__btns  .el-button--primary{
+    background-color: #ff4e7e;
+    border: #ff4e7e 1px solid;
+}
+.el-button--text,.el-button--text:focus, .el-button--text:hover{
+    color: #fff;
+    font-size: 16px;
+}
+.btn>.el-button{
+    width: 100%;
+}
+
+.login .el-button{
+    padding: 3px 0;
+}
